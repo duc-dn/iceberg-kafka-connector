@@ -1,0 +1,30 @@
+{
+  "type": "record",
+  "name": "user_topic",
+  "fields": [
+    {
+      "name": "userid",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    }, 
+    {
+      "name": "year",
+      "type": "string"
+    }, 
+    {
+      "name": "job",
+      "type": "string"
+    }, 
+    {
+      "name": "city",
+      "type": "string"
+    }, 
+    {
+      "name": "salary",
+      "type": "int"
+    }
+  ]
+}

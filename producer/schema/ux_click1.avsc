@@ -1,0 +1,151 @@
+{
+  "name": "ux_data_click_events62ea35fe235a31ea38e6aa78",
+  "type": "record",
+  "fields": [
+    {
+      "name": "events",
+      "type": {
+        "type": "array",
+        "items": {
+          "name": "events",
+          "type": "record",
+          "fields": [
+            {
+              "name": "key",
+              "type": "string"
+            },
+            {
+              "name": "count",
+              "type": "int"
+            },
+            {
+              "name": "segmentation",
+              "type": {
+                "name": "segmentation",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "x",
+                    "type": "int"
+                  },
+                  {
+                    "name": "y",
+                    "type": "int"
+                  },
+                  {
+                    "name": "width",
+                    "type": "int"
+                  },
+                  {
+                    "name": "height",
+                    "type": "int"
+                  },
+                  {
+                    "name": "view",
+                    "type": "string"
+                  },
+                  {
+                    "name": "parent",
+                    "type": [
+                      "null",
+                      {
+                        "type": "record",
+                        "name": "parent",
+                        "fields": [
+                          {
+                            "name": "x",
+                            "type": "float"
+                          },
+                          {
+                            "name": "y",
+                            "type": "float"
+                          },
+                          {
+                            "name": "width",
+                            "type": "int"
+                          },
+                          {
+                            "name": "height",
+                            "type": "int"
+                          }
+                        ] 
+                      }
+                    ]
+                  },
+                  {
+                    "name": "domain",
+                    "type": "string"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "timestamp",
+              "type": "long"
+            },
+            {
+              "name": "hour",
+              "type": "int"
+            },
+            {
+              "name": "dow",
+              "type": "int"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "app_key",
+      "type": "string"
+    },
+    {
+      "name": "device_id",
+      "type": "string"
+    },
+    {
+      "name": "sdk_name",
+      "type": "string"
+    },
+    {
+      "name": "sdk_version",
+      "type": "string"
+    },
+    {
+      "name": "t",
+      "type": "int"
+    },
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "hour",
+      "type": "int"
+    },
+    {
+      "name": "dow",
+      "type": "int"
+    },
+    {
+      "name": "raw_html",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "screen_size_type",
+      "type": "string"
+    },
+    {
+      "name": "_id",
+      "type": "string"
+    }
+  ]
+}
